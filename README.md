@@ -1,5 +1,5 @@
 
-# Quantum Book Store
+# 📦 Fawry Quantum Internship Challenge  Quantum Book Store
 
 A simple Java-based extensible online bookstore system that supports:
 
@@ -28,34 +28,26 @@ All books support standard attributes like ISBN, title, year, price, and author.
 ## 🧪 Sample Output
 
 ```
-Quantum book store: Book added - Clean Code
-Quantum book store: Book added - Java Concurrency
-Quantum book store: Book added - Sample Preview
+Quantum book store: Book added - Alice in wonderland
+Quantum book store: Book added - pizza hot
+Quantum book store: Book added - Exclusive
 Quantum book store: Current Inventory:
- - Clean Code (P123)
- - Java Concurrency (E456)
- - Sample Preview (S789)
-Quantum book store: Shipping 2x Clean Code to 123 Cairo Street
-Quantum book store: Purchase successful. Total: 300.0
-Quantum book store: Sending 1x Java Concurrency to reader@example.com
-Quantum book store: Purchase successful. Total: 90.0
-Quantum book store: Showcase book not for sale: S789
-Quantum book store: Removed outdated book - Clean Code
-Quantum book store: Removed outdated book - Sample Preview
+ - pizza hot (E456)
+ - Alice in wonderland (P153)
+ - Exclusive (D789)
+Quantum book store: Book not found with ISBN: P123
+Quantum book store: Showcase book not for sale: D789
+Quantum book store: Removed outdated book - Alice in wonderland
 ```
 
 ---
+## 🚀 How to Run
 
-## 🏃‍♂️ How to Run
-
-1. Compile all `.java` files:
+1. Open the project in any Java IDE (like IntelliJ or Eclipse).
+2. Make sure Maven is installed and configured.
+3. Run the project using:
    ```bash
-   javac *.java
-   ```
-
-2. Run the test class:
-   ```bash
-   java QuantumBookstoreFullTest
+   mvn clean compile exec:java -Dexec.mainClass="Main"
    ```
 
 ---
@@ -86,6 +78,7 @@ To add a new book type:
 ## 📌 Author
 
 **Abdelrahman Hamdy Hassan**  
-Ain Shams University — Computer Science
+**Submission for:** Fawry Rise Journey – Quantum Internship
+
 
 ---
